@@ -1,8 +1,8 @@
 node {
-   stage 'Stage 1'
+   stage 'dev'
    		echo 'Hello World 1'
-   stage 'Stage 2'
+   stage 'qa'
    		echo 'Hello World 2'
-   stage 'Stage 3'
+   stage 'prod'
    		echo 'Hello World 3'
 }
