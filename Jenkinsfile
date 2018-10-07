@@ -3,7 +3,12 @@ node {
         echo "building"
     }
 }
-stage('Deploy approval'){
+node {
+    stage('test'){
+        echo "testing"
+    }
+}
+stage('Get approval'){
     input "Deploy to qa?"
 }
 node {
