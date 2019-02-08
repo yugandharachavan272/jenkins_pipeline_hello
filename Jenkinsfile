@@ -16,3 +16,6 @@ node {
         echo "deploying"
     }
 }
+stage('new stage'){
+    input "stage"
+}
